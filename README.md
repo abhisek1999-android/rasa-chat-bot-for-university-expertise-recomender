@@ -5,7 +5,7 @@ The chatbot is be able to greet you. b. A user would ask about a topic he might 
 this website using web scrapping. For web Scrapping "Beautiful Soup" is used.
 * After getting the information the results are stored in a csv file
 * Then the csv file with all prof. information is stored in the mongo db.
-* After all those stuffs the RASA chat bot is trined
+* After all those stuffs the RASA chat bot is trained
 
 ## This are some following eg. of commands which the bot understands for the information retrival for the Prof. Information
    * I need help for [mechanical performance](topic)
