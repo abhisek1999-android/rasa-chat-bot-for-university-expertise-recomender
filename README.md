@@ -17,6 +17,7 @@ this website using web scrapping. For web Scrapping "Beautiful Soup" is used.
    * help me with [Fluid Dynamics](topic) topic
    * help me with [Crack initiation and growth mechanisms](topic) topic
    * I need help for[Crack initiation and growth mechanisms](topic)
+   
  With those extra commands the 'nlu.yml' is trained
  
  ### Now stories.yml
@@ -71,4 +72,19 @@ class ActionHelloWorld(Action):
 ### Here is some screenshot chatting with RASA
 
 ![Screenshot (645)](https://user-images.githubusercontent.com/67363661/154316929-ad3abbd0-8b3f-4dcc-b29f-55e2986b48d7.png)
+
+
+### Now time to deploy 
+* For deploying the chatbot as webapp Heroku & Docker is used
+  > For deploying the app a DokerFile and start_services.sh is added
+ ### Here is some screenshot after successfull deployment
+ * For deploying I've used Ubuntu 20.04
+ 
+ ![Screenshot from 2022-02-16 03-46-13](https://user-images.githubusercontent.com/67363661/154320284-02f2028f-075d-4576-9d70-dcc032f5a51f.png)
+
+### Here is a screenshot of heroku dashboard
+![Screenshot from 2022-02-16 22-52-35](https://user-images.githubusercontent.com/67363661/154321448-cb69fb23-07e7-4a50-9f4b-7d03328a61d9.png)
+
+### Reply from heroku app
+![Screenshot from 2022-02-16 22-52-46](https://user-images.githubusercontent.com/67363661/154321573-5c612de2-34a2-41c2-b157-989d108618f8.png)
 
