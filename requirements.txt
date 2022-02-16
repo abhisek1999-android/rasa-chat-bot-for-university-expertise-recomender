@@ -1,0 +1,7 @@
+Here the requirements for that project
+1. Python 3.8,pip
+2. Anaconda
+3. RASA
+4. Docker
+5. Heroku
+7. Mongo DB
