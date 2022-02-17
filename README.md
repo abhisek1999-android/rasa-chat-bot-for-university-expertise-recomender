@@ -1,7 +1,7 @@
 # rasa-chat-bot-for-university-expertise-recomender
 The chatbot is be able to greet you. b. A user would ask about a topic he might want help with, and relevant professor with expertise should be recommended not more than 3 at any time. c. Recommendation can be based on expertise list in profile or from descriptions etc.
 * Rasa 3.0 is used in this project.
-* In this project there is some files under "scrapping-and-mongodb" folder "Scrapper.py" is responcible for extrating the information(Professor Information) from https://www.swansea.ac.uk/staff/engineering/#associate-professors=is-expanded&lecturers-and-tutors=is-expanded&professors=is-expanded&readers=is-expanded&senior-lecturers=is-expanded
+* In this project there is some files under "scrapping-and-mongodb" folder "Scrapper.py" is responsible for extrating the information(Professor Information) from https://www.swansea.ac.uk/staff/engineering/#associate-professors=is-expanded&lecturers-and-tutors=is-expanded&professors=is-expanded&readers=is-expanded&senior-lecturers=is-expanded
 this website using web scrapping. For web Scrapping "Beautiful Soup" is used.
 * After getting the information the results are stored in a csv file
 * Then the csv file with all prof. information is stored in the mongo db.
